@@ -14,6 +14,8 @@ function flipCard() {
         return;
     }
 
+    if(this === firstCard) return;
+    
     secondCard =this;
     hasFlippedCard = false;
     checkFormMatch();
